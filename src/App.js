@@ -1,10 +1,16 @@
 import './App.css';
-import { Form } from './components/Form';
+import Home from './pages/Home';
+
+// eslint-disable-next-line no-unused-vars
+const  Container = styled.div `
+        height : 60px;
+        baground-color : black ;
+`
 
 function App() {
   return (
     <div className="App"> 
-      <Form />
+      <Home />
     </div>
   );
 }
